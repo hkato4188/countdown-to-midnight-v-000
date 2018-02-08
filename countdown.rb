@@ -1,13 +1,15 @@
 #write your code here
 
 def countdown(x)
-    @b = x.to_i
-
-    while @b > 0
+    while x > 0
       puts "#{x} SECOND(S)!"
-        @b -= 1
+        x -= 1
     end
   puts "HAPPY NEW YEAR!"
 end
 
 countdown
+
+def countdown_with_sleep
+  sleep num_sec.to_i
+end
