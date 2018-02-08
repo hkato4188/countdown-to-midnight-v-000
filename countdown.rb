@@ -10,6 +10,9 @@ end
 
 countdown
 
-def countdown_with_sleep
-  sleep num_sec.to_i
+def countdown_with_sleep(n)
+  while n > 0
+  sleep 1
+  n -= 1
+  end
 end
